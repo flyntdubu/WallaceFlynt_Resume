@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Flynt Wallace} \\ \vspace{1pt}
+    \small 678-673-9656 $|$ \href{mailto:x@x.com}{\underline{flyntwallace77@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/flyntdubu}} $|$
+    \href{https://github.com/...}{\underline{github.com/flyntdubu}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Masters of Science in Computer Science, Computing Systems, GPA: 4.0}{Aug. 2023 -- May 2024 (est.)}
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Bachelors of Science in Computer Science, Systems-Architecture/Media, GPA: 3.71}{Aug. 2019 -- May 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Prototyping Instructor/XR Master}{August 2022 -- Present}
+      {Flowers Invention Studio}{Atlanta, GA}
+      \resumeItemListStart
+                \resumeItem{Supervised the largest student run makerspace in the country, training students and faculty across 14 distinct tool groups facilitating personal, research, and academic projects.}
+        \resumeItem{Spearheaded the foundation of the first dedicated XR space in Georgia Tech, managing a \$100k budget.}
+        \resumeItem{Wrote comprehensive documentation for equipment, facilities, and protocols to ensure safe and efficient usage.}
+                \resumeItem{Curated XR software designed to foster a learning environment for users of all levels of experience.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Web Development Intern}{Jun. 2023 -- Aug. 2023}
+      {Ideas United}{Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Contributed to the development of a SaaS platform utilized by over 2000 users, with multiple Fortune 500 partners such as Google, PlayStation, Starbucks, and Warner Bros. Discovery.}
+        \resumeItem{Utilized \textbf{Ruby on Rails}, \textbf{PostgreSQL}, and \textbf{Vue.js} to add new functionality using the Google Drive API, perform secure database modifications, identify and implement bugfixes, and create 15+ custom components.}
+        \resumeItem{Built highly responsive and accessible web pages using \textbf{Vue.js} for partner companies.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Accessibility Consultant}{May 2021 -- Dec. 2021}
+      {Mesmer Eyes, Inc.}{Remote}
+      \resumeItemListStart
+              \resumeItem{Conducted thorough WCAG compliance audits for mobile apps, including five Fortune 500 clients.}
+        \resumeItem{Developed \textbf{Java} software for automated AI detection of mobile app accessibility violations.}
+        \resumeItem{Enhanced the accuracy of accessibility violation detection for perception \& comprehension failures by 80\%.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{KitBit} $|$ \emph{Arduino, Rust, Python, Jupyter Notebook}}{January 2023 -- Present}
+          \resumeItemListStart
+                      \resumeItem{Co-founded a wearable activity tracker for indoor cats created to track pet health and detect irregularities in a minimally-invasive manner.}
+                        \resumeItem{Trained an LSTM model in \textbf{Jupyter Notebook} to achieve an accuracy of 80\% in determining cat activity levels.}
+            \resumeItem{Authored a 14-page research paper submitted for publication in the ACI Conference.}
+            \resumeItem{Developed \textbf{Arduino} hardware code to transmit sensor data via Bluetooth LE.}
+            \resumeItem{Built a host program in \textbf{Rust} to synchronize and collect data for analysis.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{TransferApp} $|$ \emph{TypeScript, React, Next.js, Firebase}}{August 2021 -- May 2022}
+          \resumeItemListStart
+            \resumeItem{Designed and developed a web app for Emory to improve the transfer process of patients between medical institutions in a HIPAA-compliant manner using end-to-end encryption.}
+                        \resumeItem{Collaborated with a 5-person team, utilizing \textbf{Typescript} and the \textbf{Next.js} framework for \textbf{React}.}
+            \resumeItem{Awarded 1st place among all Fall ’22 junior design projects.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Tron: Disc Wars} $|$ \emph{Unity, Photon, Oculus SDK}}{March 2023}
+          \resumeItemListStart
+            \resumeItem{Created a co-location multiplayer mixed reality game developed for the ImmerseGT hackathon.}
+                        \resumeItem{Awarded 1st place in the Virtual Adventures track, in a competition with 550+ applicants.}
+                        \resumeItem{Developed for the Oculus Quest with a 5-person team in \textbf{Unity}, using the Photon Unity
+Networking plugin and Meta’s Colocation SDK in a 38-hour timeframe.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C/C++, C\#, Python, TypeScript, Ruby, HTML/CSS, Rust, VHDL, SQL} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, D3.js, Vue, Rails, Processing, Next.js} \\
+     \textbf{Tools}{: Git, Docker, Unity, Arduino, PostgreSQL, Heroku, Firebase, Android Studio, AWS, Microsoft 365, Figma} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
